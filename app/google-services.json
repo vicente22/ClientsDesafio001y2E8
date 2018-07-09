@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "730640326575",
+    "firebase_url": "https://clientsdesafio001e8.firebaseio.com",
+    "project_id": "clientsdesafio001e8",
+    "storage_bucket": "clientsdesafio001e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730640326575:android:6290c8b8d87b44a7",
+        "android_client_info": {
+          "package_name": "cl.vicentepc.clientsdesafio001e8"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730640326575-3kires5puprocejfh2j7p5ued1s9j0al.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cl.vicentepc.clientsdesafio001e8",
+            "certificate_hash": "42acdf0fa5e8cc5e04ed7d5bb61c77087880779e"
+          }
+        },
+        {
+          "client_id": "730640326575-5b06h3aq37kvsic8f81if1fsemh44ll8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB1PSqnyz2I5mE3R3OOYsd4pq9RUIJFRo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730640326575-5b06h3aq37kvsic8f81if1fsemh44ll8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
