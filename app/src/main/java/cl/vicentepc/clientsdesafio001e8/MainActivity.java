@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -32,13 +33,19 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                new Nodes().credentials().child("00030").addValueEventListener(new ValueEventListener() {
+                new Nodes().credentials().child("00030").addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
+                        if (dataSnapshot.exists()) {
+                            Log.d("CREDENTIALS", dataSnapshot.getKey());
+                        }
+
                         Credentials credentials = dataSnapshot.getValue(Credentials.class);
 
+
+
                         assert credentials != null;
-                        textView.setText(credentials.getDepartment());
+                        textView.setText(String.valueOf(credentials.getName()));
                     }
 
                     @Override

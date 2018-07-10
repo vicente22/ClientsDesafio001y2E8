@@ -2,17 +2,17 @@ package cl.vicentepc.clientsdesafio001e8;
 
 public class Credentials {
 
-    private String department, jobTitle, name;
+    private String deparment, jobTitle, name;
 
     public Credentials() {
     }
 
-    public String getDepartment() {
-        return department;
+    public String getDeparment() {
+        return deparment;
     }
 
-    public void setDepartment(String department) {
-        this.department = department;
+    public void setDeparment(String deparment) {
+        this.deparment = deparment;
     }
 
     public String getJobTitle() {
